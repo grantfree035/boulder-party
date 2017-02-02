@@ -1,0 +1,19 @@
+{
+  "name": "boulder-party",
+  "version": "0.0.0",
+  "description": "Augmented Reality Climbing Games",
+  "main": "app/background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantfree035/boulder-party.git"
+  },
+  "author": "Grant Freeman <grantfree035@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/grantfree035/boulder-party/issues"
+  },
+  "homepage": "https://github.com/grantfree035/boulder-party#readme"
+}
