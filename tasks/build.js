@@ -1,10 +1,8 @@
 'use strict'
 
-const roll = require('./rollup.js')
-const Dir = require('./utils/dir.js')
-
-const src = new Dir('src')
-const dst = new Dir('app')
+const rollup = require('./rollup.js')
+const appRootPath = require('app-root-path')
+const path = require('path')
 
 // Rollup Javascript
-roll(src.path('background.js'), dst.path('background.js'))
+rollup(path.join(appRootPath, 'src/background.js'), path.join(appRootPath, 'app/background.js'))
