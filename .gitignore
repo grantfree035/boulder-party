@@ -1,3 +1,4 @@
+### NODE.JS ###
 # Logs
 logs
 *.log
@@ -36,5 +37,12 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
+### WEBSTORM ###
 # WebStorm Project files
 .idea/
+
+### BOULDER PARTY ###
+
+# compiled app files
+app/*
+!app/app.html

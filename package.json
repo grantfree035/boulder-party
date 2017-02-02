@@ -4,7 +4,10 @@
   "description": "Augmented Reality Climbing Games",
   "main": "app/background.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node tasks/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "standard": "standard --fix",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/grantfree035/boulder-party/issues"
   },
-  "homepage": "https://github.com/grantfree035/boulder-party#readme"
+  "homepage": "https://github.com/grantfree035/boulder-party#readme",
+  "rollup": [
+    "background.js"
+  ],
+  "devDependencies": {
+    "electron": "1.4.15",
+    "rollup": "0.41.4",
+    "standard": "8.6.0"
+  }
 }
