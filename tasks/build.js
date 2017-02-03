@@ -1,7 +1,7 @@
 'use strict'
 
 const rollup = require('./rollup.js')
-const appRootPath = require('app-root-path')
+const appRootPath = require('app-root-path').toString()
 const path = require('path')
 
 // Rollup Javascript
