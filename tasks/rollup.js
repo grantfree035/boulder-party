@@ -1,5 +1,7 @@
 'use strict'
 
+/** @module rollup.js */
+
 const fs = require('fs')
 const path = require('path')
 const rollup = require('rollup').rollup
@@ -11,7 +13,7 @@ const relAppRootPath = path.relative(__dirname, appRootPath)
  *
  * @example
  *
- * Basic usage:
+ * // Basic usage
  *
  * const rollup = require('./rollup.js')
  *
