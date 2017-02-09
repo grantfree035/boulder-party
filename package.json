@@ -19,10 +19,6 @@
   },
   "author": "Grant Freeman <grantfree035@gmail.com>",
   "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/grantfree035/boulder-party/issues"
-  },
-  "homepage": "https://github.com/grantfree035/boulder-party#readme",
   "devDependencies": {
     "app-root-path": "1.3.0",
     "documentation": "4.0.0-beta.18",
